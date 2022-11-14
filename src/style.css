@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html, body {
+    overflow-x: hidden;
+}
+
+.background-image-with-color {
+    background-image: url("/src/images/black-squiggles.png");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.background-color-foot {
+    background-color: #A67758;
+}

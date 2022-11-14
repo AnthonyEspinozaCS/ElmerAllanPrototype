@@ -9,7 +9,7 @@ module.exports = {
         'gray': '#1B263B',
         'black-custom': '#0D1B2A',
         'brown-exec': '#A67758',
-        'brown-accent': '#',
+        'brown-exec-op': 'rgb(166 119 88 / 0.8)',
         'white-exec': '#F9F5F2',
       }
     },
