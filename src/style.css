@@ -14,6 +14,14 @@ html, body {
     max-width: 100%;
 }
 
+.background-image-nav {
+    background-image: url("/src/images/black-squiggles.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
 .background-color-foot {
     background-color: #A67758;
 }
