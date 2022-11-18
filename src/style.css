@@ -8,7 +8,7 @@ html, body {
 
 .background-image-with-color {
     background-image: url("/src/images/black-squiggles.png");
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -16,6 +16,14 @@ html, body {
 
 .background-image-nav {
     background-image: url("/src/images/black-squiggles.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.background-squiggle {
+    background-image: url("/src/images/squiggles.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>design_potato</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/style.css" />
+  </head>
+  <body class="bg-white w-full overflow-x-hidden">
+    <nav class="background-color-foot background-image-nav fixed shadow-lg box-border w-full max-w-full z-50">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-between">
+          <div class="flex space-x-7">
+            <!-- Website Logo -->
+            <a href="#" class="flex items-center py-4 px-2 max-w-[130px]">
+              <img src="/src/logo_transparent.png" alt="Logo" class="h-8 w-full mr-2" />
+              <!-- <span class="font-semibold text-white text-lg"
+                >Design Potato</span
+              > -->
+            </a>
+          </div>
+          <!-- Primary Navbar items -->
+          <div class="hidden md:flex items-center space-x-1">
+            <a
+              href="/index.html"
+              class="py-4 px-2 text-white-exec border-b-4 border-white hover:text-white-exec font-semibold"
+              >Home</a
+            >
+            <a
+              href="/about.html"
+              class="py-4 px-2 text-white-exec font-semibold hover:text-white-exec transition duration-300"
+              >About Us</a
+            >
+            <a
+              href=""
+              class="py-4 px-2 text-white-exec font-semibold hover:text-white-exec transition duration-300"
+              >Contact Us</a
+            >
+          </div>
+          <div class="md:hidden h-full my-auto">
+            <button class="mobile-menu-button space-y-2 p-2.5">
+              <span class="block w-7 h-0.5 bg-white-exec"></span>
+              <span class="block w-7 h-0.5 bg-white-exec"></span>
+              <span class="block w-7 h-0.5 bg-white-exec"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- mobile menu -->
+      <div
+        class="hidden md:hidden mobile-menu absolute h-48 w-full z-50 bg-brown-exec background-image-nav pt-5 m-auto rounded-b-md"
+      >
+        <ul class="text-center h-full space-y-5 text-2xl">
+          <li>
+            <a
+              href=""
+              class="text-white-exec font-semibold hover:text-white-exec transition duration-300"
+              >Home</a
+            >
+          </li>
+          <li class="">
+            <a href="" class="text-white-exec border-b-4 hover:text-white-exec border-white font-semibold"
+              >About Us</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="text-white-exec font-semibold hover:text-white-exec transition duration-300"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section class="board flex flex-row flex-wrap w-[96%] m-auto justify-between bg-white-exec mt-20">
+      <h1 class="font-bold text-4xl text-center m-auto max-w-[904px] mb-[30px] relative text-brown-exec w-full">Board of Directors</h1>
+        <div class="board_card block w-[30%] m-auto text-center">
+          <img src="/src/images/portraits/1.png" class="">
+          <h2 class="font-bold text-xl text-center m-auto mb-[15px] relative text-brown-exec">Gordan Commings<br>Chairman</h2>
+          <p class="text-base text-center m-auto text-brown-exec-op mb-[15px]">Gordon Cummings is a retired CEO with over 20 years of experience as a
+            C-suite executive.
+          </p>
+          <button class="read-more text-base text-center m-auto w-auto bg-brown-exec px-3 mb-[30px]" id="1">Read More</button>
+        </div>
+        <div id="text-1" class="hidden border rounded border-brown-exec absolute top-20 w-[96%] p-5 bg-white-exec text-brown-exec text-center m-auto">
+          <h2 class="font-bold text-xl text-left m-auto mb-[15px] relative text-brown-exec">Gordan Commings, Chairman</h2>
+          <p class="text-left pb-5">Gordon Cummings is a retired CEO with over 20 years of experience as a
+          C-suite executive. He started his ventures as a partner with Woods
+          Gordon (now Ernst & Young). In 1984 he joined National Sea, Canada's
+          then-largest seafood company, as COO. He quickly earned the title of
+          CEO and served until 1989. Becoming CEO of United Cooperatives of
+          Ontario was his next accomplishment, and he later went on to become
+          Alberta Wheat Pool's CEO.
+          This allowed him to solidify his company's reputations by leading them
+          through crucial phases of corporate evolution. Cummings' leadership
+          paved the way for Alberta Wheat Pool to merge with other companies
+          and finally become Argicore United. He chose to step down in 2002 but
+          remained active as Chief Executive at the Canadian Executive Service
+          Organization (CESO) until 2005. He's served on over 20 boards,
+          including chairman positions at Pacific Aqua Foods Limited, UCO
+          Petroleum Inc., and the Western Grain Elevator Association.
+          He graduated from Concordia University (formerly Sir George Williams)
+          in 1964 with a Bachelor of Commerce degree. While still working fulltime,
+          he earned his MBA from McMaster University in 1988. Gordon has
+          lectured at the University of Toronto and McGill University, served as
+          chairman of numerous committees for the Society of Management
+          Accountants of Canada, and volunteers for a variety of organizations,
+          including St. Clement Church. <br></p>
+          <button class="text-base text-center m-auto w-auto bg-brown-exec text-white-exec px-3">Read Less</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="background-image-with-color background-color-foot block pt-16 pb-4">
+      <!-- <img class="w-full h-full text-center object-cover z-[1000]" src="/src/images/squiggles.png"> -->
+      <div class="container block relative w-[92%] md:w-[96%] md:flex box-border justify-between m-auto max-w-7xl text-[19px]">
+        <div class="left-section text-white text-left sm:text-center m-auto md:m-0 sm:mb-16 md:w-[300px]">
+          <a class="logo" href="/index.html">
+            <img
+              class="block text-center md:text-left mb-9 m-auto md:m-0"
+              loading="lazy"
+              decoding="async"
+              src="/src/logo_transparent.png"
+              alt="logo"
+              width="264"
+              height="78"
+            />
+          </a>
+          <p class="text-base w-[360px] md:w-[235px] text-center md:text-left m-auto md:m-0 md:text-[10px]">We put the focus on home in retirement home.</p>
+        </div>
+        <div class="right-section w-[480px] max-w-[98%] justify-between text-white m-auto md:m-0">
+          <div class="lists flex m-auto w-[360px] max-w-[96%] justify-between flex-wrap">
+            <ul class="space-y-3">
+              <li>
+                <h2
+                  class="font-bold mb-[28px] uppercase relative after:block after:h-0.5 after:bg-yellow-400 after:w-36"
+                >
+                  Information
+                </h2>
+              </li>
+              <li class="hover:text-yellow-400 transition-colors duration-300"><a href="/index.html">Home</a></li>
+              <li class="hover:text-yellow-400 transition-colors duration-300"><a href="/about.html">About Us</a></li>
+              <li class="hover:text-yellow-400 transition-colors duration-300"><a href="/contact.html">Contact Us</a></li>
+            </ul>
+            <ul class="space-y-3">
+              <li class=>
+                <h2
+                  class="font-bold mb-[28px] h-[26px] uppercase relative after:block after:h-0.5 after:bg-yellow-400 after:w-24"
+                >
+                  Contact
+                </h2>
+              </li>
+              <li class="flex hover:text-yellow-400">
+                <a href="/contact.html">
+                  First Address Line
+                  <br />
+                  Las Vegas, NV 89031
+                </a>
+              </li>
+              <li class="flex hover:text-yellow-400">
+                <a href="tel:555-555-5555"> T: (555) 555-5555 </a>
+              </li>
+              <li class="flex hover:text-yellow-400">
+                <a href="mailto:email@email.com"> Click to Email </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="credit bg-brown-exec text-white w-[96%] m-auto text-center mt-[120px] text-xs">
+        <span>Designed and Hand Coded by</span>
+        <a class="text-yellow-400" href target="_blank" rel="noopener">Design Potato</a>
+        <span> Copyright 2022 - Present</span>
+      </div>
+    </footer>
+    <script src="nav.js"></script>
+    <script src="readMore.js"></script>
+  </body>
+</html>
