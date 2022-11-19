@@ -18,7 +18,7 @@
         <div class="flex justify-between">
           <div class="flex space-x-7">
             <!-- Website Logo -->
-            <a href="#" class="flex items-center py-4 px-2 max-w-[130px]">
+            <a href="/index.html" class="flex items-center py-4 px-2 max-w-[130px]">
               <img src="/src/logo_transparent.png" alt="Logo" class="h-8 w-full mr-2" />
               <!-- <span class="font-semibold text-white text-lg"
                 >Design Potato</span
@@ -29,12 +29,12 @@
           <div class="hidden md:flex items-center space-x-1">
             <a
               href="/index.html"
-              class="py-4 px-2 text-white-exec border-b-4 border-white hover:text-white-exec font-semibold"
+              class="py-4 px-2 text-white-exec font-semibold hover:text-white-exec transition duration-300"
               >Home</a
             >
             <a
               href="/about.html"
-              class="py-4 px-2 text-white-exec font-semibold hover:text-white-exec transition duration-300"
+              class="py-4 px-2 text-white-exec border-b-4 border-white hover:text-white-exec font-semibold"
               >About Us</a
             >
             <a
@@ -59,13 +59,13 @@
         <ul class="text-center h-full space-y-5 text-2xl">
           <li>
             <a
-              href=""
+              href="/index.html"
               class="text-white-exec font-semibold hover:text-white-exec transition duration-300"
               >Home</a
             >
           </li>
           <li class="">
-            <a href="" class="text-white-exec border-b-4 hover:text-white-exec border-white font-semibold"
+            <a href="/about.html" class="text-white-exec border-b-4 hover:text-white-exec border-white font-semibold"
               >About Us</a
             >
           </li>
@@ -83,17 +83,17 @@
     <main>
       <section class="board flex flex-row flex-wrap w-[96%] m-auto justify-between bg-white-exec mt-20">
       <h1 class="font-bold text-4xl text-center m-auto max-w-[904px] mb-[30px] relative text-brown-exec w-full">Board of Directors</h1>
-        <div class="board_card block w-[30%] m-auto text-center">
-          <img src="/src/images/portraits/1.png" class="">
-          <h2 class="font-bold text-xl text-center m-auto mb-[15px] relative text-brown-exec">Gordan Commings<br>Chairman</h2>
-          <p class="text-base text-center m-auto text-brown-exec-op mb-[15px]">Gordon Cummings is a retired CEO with over 20 years of experience as a
+        <div class="board_card block h-[550px] sm:h-[615px] w-[45%] sm:w-[30%] m-auto text-center">
+          <img src="/src/images/circle/Gordon Cummings.png" class="">
+          <h2 class="font-bold text-xl text-center m-auto mb-[15px] relative text-brown-exec">Gordon Cummings,<br>Chairman</h2>
+          <p class="text-sm sm:text-base text-center m-auto h-[90px] text-black mb-[15px]">Gordon Cummings is a retired CEO with over 20 years of experience as a
             C-suite executive.
           </p>
-          <button class="read-more text-base text-center m-auto w-auto bg-brown-exec px-3 mb-[30px]" id="1">Read More</button>
+          <button onclick="more('gordon')" class="read-more-gordon text-base text-center m-auto w-auto rounded text-white bg-brown-exec hover:bg-white hover:text-brown-exec py-2 px-3 mb-[30px]">Read More</button>
         </div>
-        <div id="text-1" class="hidden border rounded border-brown-exec absolute top-20 w-[96%] p-5 bg-white-exec text-brown-exec text-center m-auto">
-          <h2 class="font-bold text-xl text-left m-auto mb-[15px] relative text-brown-exec">Gordan Commings, Chairman</h2>
-          <p class="text-left pb-5">Gordon Cummings is a retired CEO with over 20 years of experience as a
+        <div class="gordon-text hidden border rounded border-brown-exec absolute top-24 w-[96%] p-5 bg-white-exec text-brown-exec text-center m-auto z-10">
+          <h2 class="font-bold text-xl text-left m-auto mb-[15px] relative text-brown-exec">Gordon Cummings, Chairman</h2>
+          <p class="text-left pb-5 text-black">Gordon Cummings is a retired CEO with over 20 years of experience as a
           C-suite executive. He started his ventures as a partner with Woods
           Gordon (now Ernst & Young). In 1984 he joined National Sea, Canada's
           then-largest seafood company, as COO. He quickly earned the title of
@@ -115,7 +115,261 @@
           chairman of numerous committees for the Society of Management
           Accountants of Canada, and volunteers for a variety of organizations,
           including St. Clement Church. <br></p>
-          <button class="text-base text-center m-auto w-auto bg-brown-exec text-white-exec px-3">Read Less</button>
+          <button onclick="more('gordon')" class="text-base text-center m-auto w-auto rounded bg-brown-exec text-white-exec py-2 px-3 hover:bg-white hover:text-brown-exec">Read Less</button>
+        </div>
+        <div class="board_card block h-[550px] sm:h-[615px] w-[45%] sm:w-[30%] m-auto text-center">
+          <img src="/src/images/circle/Dean Palibroda.png" class="">
+          <h2 class="font-bold text-xl text-center m-auto mb-[15px] relative text-brown-exec">Dean Palibroda,<br>Founding Principal</h2>
+          <p class="text-sm sm:text-base text-center m-auto h-[90px] text-black mb-[15px]">Dean Palibroda is a strong force in today’s social media marketing world.
+          </p>
+          <button onclick="more('dean')" class="read-more-dean text-base text-center m-auto w-auto rounded text-white bg-brown-exec hover:bg-white hover:text-brown-exec py-2 px-3 mb-[30px]">Read More</button>
+        </div>
+        <div class="dean-text hidden border rounded border-brown-exec absolute top-24 w-[96%] p-5 bg-white-exec text-brown-exec text-center m-auto z-10">
+          <h2 class="font-bold text-xl text-left m-auto mb-[15px] relative text-brown-exec">Dean Palibroda, Founding Principal</h2>
+          <p class="text-left pb-5 text-black">Dean Palibroda is a strong force in today’s social media marketing world.
+            He collaborates with individuals and organizations, transforming them
+            into reputable brands. This is done through extensive brand building and
+            effective social media marketing. Dean has now built his social media
+            business into a profitable enterprise.
+            Dean stems from a family of entrepreneurs, owning everything from
+            hotels to apartment buildings, RV dealerships, and jewellery stores. This
+            has lead him to invest in real estate, now having multiple sizable
+            investments, himself. His family is the motivation Dean needed to discard
+            the thought of attending dental school and instead embrace his calling as a
+            company advisor. After completing a BSc in chemistry, he formed his first
+            media business.
+            Dean’s interest in the senior housing market originates from his own
+            experiences taking care of family members and seeing the difference that
+            quality care can make. He strongly believes in providing innovative, highquality
+            care and activities for people as they grow older. In the last 10
+            years, Dean has been travelling the world to study the role of behavioural
+            psychology and personal development in business finance.
+            He has also gone on to attend conferences and seminars across the world,
+            including Australia, Canada, England, U.S., and Scotland. <br></p>
+          <button onclick="more('dean')" class="text-base text-center m-auto w-auto rounded bg-brown-exec text-white-exec py-2 px-3 hover:bg-white hover:text-brown-exec">Read Less</button>
+        </div>
+        <div class="board_card block h-[550px] sm:h-[615px] w-[45%] sm:w-[30%] m-auto text-center">
+          <img src="/src/images/circle/Julia Glover.png" class="">
+          <h2 class="font-bold text-xl text-center m-auto mb-[15px] relative text-brown-exec">Julia Glover,<br>CEO</h2>
+          <p class="text-sm sm:text-base text-center m-auto h-[90px] text-black mb-[15px]">Julia Glover has over 30 years of experience in gerontology and senior care.
+          </p>
+          <button onclick="more('julia')" class="read-more-julia text-base text-center m-auto w-auto rounded text-white bg-brown-exec hover:bg-white hover:text-brown-exec py-2 px-3 mb-[30px] z-50">Read More</button>
+        </div>
+        <div class="julia-text hidden border rounded border-brown-exec absolute top-[630px] sm:top-24 w-[96%] p-5 bg-white-exec text-brown-exec text-center m-auto z-10">
+          <h2 class="font-bold text-xl text-left m-auto mb-[15px] relative text-brown-exec">Julia Glover, CEO</h2>
+          <p class="text-left pb-5 text-black">Julia Glover has over 30 years of experience in gerontology and senior care. She
+            has held various management positions at multiple of British Columbia's top
+            senior care facilities, including Cariboo Lodge in Williams Lake, BC, Chartwell
+            Crescent Gardens Retirement Community, and Retirement Concepts, where she
+            supervised the day-to-day operations of seven facilities.
+            In 1984, Julia joined Williams Lake Home Support as a long-term care aide.
+            There, she provided nursing care and assistance to clients in their homes for six
+            years. She completed Thompson Rivers University’s LPN-RN Access Program
+            and became a registered nurse in 1991. Meanwhile, she took on a role as a parttime
+            clinical instructor for the Long-Term Care Aide program at the University
+            College of the Cariboo, BC.
+            While managing Retirement Concepts, Julia led and directed the initial opening
+            of Williams Lake Seniors Village. Recognized for her astute leadership, in 2014,
+            she was offered an Executive Director position with Laurel Place, a long-term
+            care home in Surrey Memorial Hospital, BC. She developed and implemented
+            business plans, fostered relationships with the Fraser Health Authority, the
+            Hospital Employees Union, etc., and provided mentorship and coaching to
+            department managers.
+            After serving as the general manager at Chartwell Crescent Gardens Retirement
+            Community, a modern care home for seniors, she joined Buron Healthcare Inc.
+            as VP, in 2017. Julia holds an MBA in executive management from Royal Roads
+            University. She is also a member of CRNBC, the Canadian Nurses Association
+            Certification Program in Gerontology.<br></p>
+          <button onclick="more('julia')" class="text-base text-center m-auto w-auto rounded bg-brown-exec text-white-exec py-2 px-3 hover:bg-white hover:text-brown-exec">Read Less</button>
+        </div>
+        <div class="board_card block h-[550px] sm:h-[615px] w-[45%] sm:w-[30%] m-auto text-center">
+          <img src="/src/images/circle/Mike Moran.png" class="">
+          <h2 class="font-bold text-xl text-center m-auto mb-[15px] relative text-brown-exec">Mike Moran,<br>CFO</h2>
+          <p class="text-sm sm:text-base text-center m-auto h-[90px] text-black mb-[15px]">Mike Moran is an experienced senior executive who has worked
+            with boards of directors...
+          </p>
+          <button onclick="more('mike')" class="read-more-mike text-base text-center m-auto w-auto rounded text-white bg-brown-exec hover:bg-white hover:text-brown-exec py-2 px-3 mb-[30px] z-50">Read More</button>
+        </div>
+        <div class="mike-text hidden border rounded border-brown-exec absolute top-[630px] sm:top-[695px] w-[96%] p-5 bg-white-exec text-brown-exec text-center m-auto z-10">
+          <h2 class="font-bold text-xl text-left m-auto mb-[15px] relative text-brown-exec">Mike Moran, CFO</h2>
+          <p class="text-left pb-5 text-black">Mike Moran is an internationally experienced senior executive who has worked
+            with boards of directors and international management teams to bring strategic
+            business insights and practical approaches to the challenges facing complex
+            organizations. He has a proven record of delivering long-term value with a focus
+            on customers, employees, and shareholders.
+            In the early 2000s, Mike began gaining a substantial amount of experience in
+            finance. For six years, he had the titles of vice president, director of finance, and
+            accountant/controller for the Pitney Bowes Canada company. He became Chief
+            Financial Officer for the Avotus Corporation in 2006, where he created and
+            presented a five-year financial model for raising new equity financing to the
+            Board.
+            Mike went on to become the vice president of finance for ADP Canada-Employer
+            Services. He managed a large team and was responsible for a $15M budget.
+            During his stay at ADP Canada, Mike oversaw financial functions such as
+            planning and reporting, sales compensation, order management, etc. Later, in
+            2010, Mike moved on as Global Chief Financial Officer and Principal for Golder
+            Associates Corporation. For six years, he was a member of the Global Executive
+            Committee and led Golder's global financial operations and strategy, capital
+            management, etc. From 2016 until today, Mike was CFO Americas for GHD, one
+            of the world's leading engineering consulting companies with over $2B in global
+            revenue.
+            As a student at the University of Waterloo, Canada, Mike earned his BA. He then
+            attended the Institute of Charted Accountants of Ontario (ICAO) and the
+            Canadian Institute of Chartered Accountants (CICA), where he received his CPA
+            and CA. He is also currently a board member of Websan Solutions, Inc.<br></p>
+          <button onclick="more('mike')" class="text-base text-center m-auto w-auto rounded bg-brown-exec text-white-exec py-2 px-3 hover:bg-white hover:text-brown-exec">Read Less</button>
+        </div>
+        <div class="board_card block h-[550px] sm:h-[615px] w-[45%] sm:w-[30%] m-auto text-center">
+          <img src="/src/images/circle/Stuart Omsen.png" class="">
+          <h2 class="font-bold text-xl text-center m-auto mb-[15px] relative text-brown-exec">Stuart Omsen,<br>Lead Director</h2>
+          <p class="text-sm sm:text-basetext-base text-center m-auto h-[90px] text-black mb-[15px]">Stuart Omsen is an accomplished business development specialist with over 20
+            years of experience.
+          </p>
+          <button onclick="more('stuart')" class="read-more-stuart text-base text-center m-auto w-auto rounded text-white bg-brown-exec hover:bg-white hover:text-brown-exec py-2 px-3 mb-[30px] z-50">Read More</button>
+        </div>
+        <div class="stuart-text hidden border rounded border-brown-exec absolute top-[1180px] sm:top-[695px] w-[96%] p-5 bg-white-exec text-brown-exec text-center m-auto z-10">
+          <h2 class="font-bold text-xl text-left m-auto mb-[15px] relative text-brown-exec">Stuart Omsen, Lead Director</h2>
+          <p class="text-left pb-5 text-black">Stuart Omsen is an accomplished business development specialist with over 20
+            years of experience. Additionally he spent nearly a decade in corporate finance
+            working with healthcare and technology companies, focusing on corporate
+            development and venture capital finance.
+            Stuart’s experience and marketing knowledge earned him the role of Director of
+            Partnership Development at dentalcorp, Canada’s largest network of dental
+            practices, where he is responsible for the acquisition of dental offices. Stuart was
+            previously the President of DS Biotech Inc. and Med-Tech Distribution (2000).
+            Later, he served as Vice President of TransGlobal Commodities (2004-2009),
+            successfully enhancing the company’s partnerships and trading capabilities. In
+            2009, after helping the company raise millions in equity capital, Stuart joined
+            Legend Power Systems Inc., a publicly traded energy management company, as
+            Director of Corporate Development. Working closely with the CEO, Stuart was
+            responsible for the public market side of the business.
+            Stuart is an active investor in private and public healthcare and technology
+            companies, commodities, and crypto while serving as a Director on the board of
+            Uniserve Communications Inc., a publicly traded communications company.<br></p>
+          <button onclick="more('stuart')" class="text-base text-center m-auto w-auto rounded bg-brown-exec text-white-exec py-2 px-3 hover:bg-white hover:text-brown-exec">Read Less</button>
+        </div>
+        <div class="board_card block h-[550px] sm:h-[615px] w-[45%] sm:w-[30%] m-auto text-center">
+          <img src="/src/images/circle/Larry Crossan.png" class="">
+          <h2 class="font-bold text-xl text-center m-auto mb-[15px] relative text-brown-exec">Larry Crossan,<br>Legal Director</h2>
+          <p class="text-sm sm:text-basetext-base text-center m-auto h-[90px] text-black mb-[15px]">Larry Crossan is a strategist, lawyer, entrepreneur, educator, and software
+            developer...
+          </p>
+          <button onclick="more('larry')" class="read-more-larry text-base text-center m-auto w-auto rounded text-white bg-brown-exec hover:bg-white hover:text-brown-exec py-2 px-3 mb-[30px] z-50">Read More</button>
+        </div>
+        <div class="larry-text hidden border rounded border-brown-exec absolute top-[1180px] sm:top-[695px] w-[96%] p-5 bg-white-exec text-brown-exec text-center m-auto z-10">
+          <h2 class="font-bold text-xl text-left m-auto mb-[15px] relative text-brown-exec">Larry Crossan, Legal Director</h2>
+          <p class="text-left pb-5 text-black">Larry Crossan is a strategist, lawyer, entrepreneur, educator, and software
+            developer who resides in Ontario. He is a partner with Lexcor Business Lawyers
+            LLP, where he provides services in estate planning, corporate, business,
+            trademark, intellectual property, and startup law.
+            He completed law school at Western University, holds a Bachelor of Commerce
+            from McGill University, and an MBA from the Richard Ivey School of Business
+            (Western). He was called to the bars of New York and Ontario in 1987 and 1988,
+            respectively.
+            Larry gained business experience in banking and corporate finance, general
+            management, and the hospitality industry before becoming a lawyer. Prior to
+            founding Lexcor, he practised with two of Canada’s national firms and is
+            comfortable with Bay Street and Main Street transactions.
+            Along with all of the lawyers in the firm, Larry’s practise is exclusively devoted to
+            business transactions, with a particular emphasis on the purchase, sale, financing,
+            and structuring of owner-operated businesses and tax-driven corporate
+            reorganizations.
+            Larry is a registered trademark agent and has been an instructor in the business
+            law section of the Bar Admissions Course for many years. He has spoken on and
+            taught business law in various continuing education settings. He is also involved
+            in several nonprofit and community organizations.<br></p>
+          <button onclick="more('larry')" class="text-base text-center m-auto w-auto rounded bg-brown-exec text-white-exec py-2 px-3 hover:bg-white hover:text-brown-exec">Read Less</button>
+        </div>
+        <div class="board_card block h-[550px] sm:h-[615px] w-[45%] sm:w-[30%] m-auto text-center">
+          <img src="/src/images/circle/James Tsiokos.png" class="">
+          <h2 class="font-bold text-lg sm:text-xl text-center m-auto mb-[15px] relative text-brown-exec">James Tsiokos,<br>Accountant&NonBreakingSpace;Director</h2>
+          <p class="text-sm sm:text-base text-center m-auto h-[90px] text-black mb-[15px]">James Tsiokos is an avid business executive with over 25 years of experience
+            within distribution...
+          </p>
+          <button onclick="more('james')" class="read-more-james text-base text-center m-auto w-auto rounded text-white bg-brown-exec hover:bg-white hover:text-brown-exec py-2 px-3 mb-[30px] z-50">Read More</button>
+        </div>
+        <div class="james-text hidden border rounded border-brown-exec absolute top-[1730px] sm:top-[1310px] w-[96%] p-5 bg-white-exec text-brown-exec text-center m-auto z-10">
+          <h2 class="font-bold text-xl text-left m-auto mb-[15px] relative text-brown-exec">James Tsiokos, Accountant Director</h2>
+          <p class="text-left pb-5 text-black">James Tsiokos is an avid business executive with over 25 years of experience
+            within distribution and retail of auto parts, manufacturing, steel fabrication,
+            equipment (trucks, trailers, landscaping, construction, and snowplows), etc. He
+            also has commercial leasing, real estate, and mortgage financing under his belt.
+            With over nine years of M&A experience, managing strategic acquisitions from
+            procurement through due diligence to the coordination of internal approval and
+            communication processes for transaction completion, James has kept himself
+            busy. His day-to-day execution of various M&A processes (sell-side, buy-side,
+            structured transactions, and asset and share deals) is also something he prides
+            himself on.
+            James has thorough knowledge of corporate finance and accounting, with an
+            excellent understanding of the legal and tax aspects related to M&A transactions.
+            He's acquired 14 private companies and led 15 industrial property transactions.
+            Furthermore, James has had the opportunity to start up eleven companies, some
+            with joint venture partners.
+            As a highly collaborative leader, team builder, and change manager, James has
+            added to his knowledge by screening and analyzing potential opportunities for
+            strategic fit. He's considered an optimistic and pragmatic problem solver with
+            proficiency in leading large and cross-functional teams in a project management
+            environment.<br></p>
+          <button onclick="more('james')" class="text-base text-center m-auto w-auto rounded bg-brown-exec text-white-exec py-2 px-3 hover:bg-white hover:text-brown-exec">Read Less</button>
+        </div>
+        <div class="board_card block h-[550px] sm:h-[615px] w-[45%] sm:w-[30%] m-auto text-center">
+          <img src="/src/images/circle/Christine Craik.png" class="">
+          <h2 class="font-bold text-xl text-center m-auto mb-[15px] relative text-brown-exec">Christine Craik,<br>Industry Expert</h2>
+          <p class="text-sm sm:text-base text-center m-auto h-[90px] text-black mb-[15px]">Christine is a senior associate at Kasian, an Eden Associate, university lecturer...
+          </p>
+          <button onclick="more('christine')" class="read-more-christine text-base text-center m-auto w-auto rounded text-white bg-brown-exec hover:bg-white hover:text-brown-exec py-2 px-3 mb-[30px] z-50">Read More</button>
+        </div>
+        <div class="christine-text hidden border rounded border-brown-exec absolute top-[1730px] sm:top-[1310px] w-[96%] p-5 bg-white-exec text-brown-exec text-center m-auto z-10">
+          <h2 class="font-bold text-xl text-left m-auto mb-[15px] relative text-brown-exec">Christine Craik, Industry Expert</h2>
+          <p class="text-left pb-5 text-black">Christine is a senior associate at Kasian, an Eden Associate, university lecturer,
+            international conference presenter, board-certified healthcare interior designer
+            with the AAHID, and a registered interior designer with the IDC, IDIBC, IIDA,
+            and ASID.
+            Specializing in senior living and healthcare design, Christine’s unique background
+            also gives her insight into user research and implementation of data into building
+            form and function, project branding, life cycle considerations, and targeted
+            renovation strategies to increase occupancy in the senior living sector.
+            Her design portfolio includes complex projects in luxury independent living,
+            assisted living, memory and dementia care, healthcare and hospitality design, and
+            geriatric behavioral health environments in the United States and Canada.
+            She strives to strengthen relationships with the architecture and engineering of a
+            space. Staying current with cutting-edge research, technologies, and trends in the
+            industry, Christine focuses on attending local, national, and international design
+            conferences, as well as building conferences in Europe, Asia, and North America.<br></p>
+          <button onclick="more('christine')" class="text-base text-center m-auto w-auto rounded bg-brown-exec text-white-exec py-2 px-3 hover:bg-white hover:text-brown-exec">Read Less</button>
+        </div>
+        <div class="board_card block h-[575px] sm:h-[615px] w-[45%] sm:w-[30%] m-auto text-center">
+          <img src="/src/images/circle/Susie Macmaster.png" class="">
+          <h2 class="font-bold text-xl text-center m-auto mb-[15px] relative text-brown-exec">Susie Macmaster,<br>Industry Expert</h2>
+          <p class="text-sm sm:text-base text-center m-auto h-[90px] text-black mb-[15px]">Originally having settled in Scotland, where she worked as an RN for a large
+            psychiatric hospital...
+          </p>
+          <button onclick="more('susie')" class="read-more-susie text-base text-center m-auto w-auto rounded text-white bg-brown-exec hover:bg-white hover:text-brown-exec py-2 px-3 mb-[30px] z-50">Read More</button>
+        </div>
+        <div class="susie-text hidden border rounded border-brown-exec absolute top-[2080px] sm:top-[1310px] w-[96%] p-5 bg-white-exec text-brown-exec text-center m-auto z-10">
+          <h2 class="font-bold text-xl text-left m-auto mb-[15px] relative text-brown-exec">Susie Macmaster, Industry Expert</h2>
+          <p class="text-left pb-5 text-black">Originally having settled in Scotland, where she worked as an RN for a large
+            psychiatric hospital, Susie Macmaster moved to Canada in 2001. She has over 18
+            years of experience in the senior housing industry. With a solid understanding of
+            market analysis, sales, and quality assurance, Susier has the ability to problem
+            solve in a fast paced environment and possesses strong directorship, mentorship,
+            and leadership skills with a commitment to exceptional customer service and
+            personal excellence.
+            In 2003, Susie joined the Hallman group of retirement homes as a health and
+            wellness manager driven by her passion for dementia and palliative care. After
+            being acquired by Chartwell Seniors Housing REIT in 2008, Susie was offered
+            the position of Regional Director, Sales and Marketing. She was responsible for
+            overseeing the sales and marketing initiatives for Chartwell's south-western
+            portfolio. The operational aspect of the senior housing industry was very
+            interesting to Susie. In 2010, she accepted the position of general manager at
+            Seasons Bell Lane in Brantford. After two years, Susie was offered the
+            opportunity to return to Chartwell as the Regional Director of Operations for
+            Chartwell’s new-build portfolio.
+            Susie then returned to Season Retirement Communities as the Senior Director of
+            Care Services in 2015. During this time, she played a key role in the acquisition
+            of eight retirement communities in Alberta, which doubled the Seasons
+            Retirement Community portfolio.<br></p>
+          <button onclick="more('susie')" class="text-base text-center m-auto w-auto rounded bg-brown-exec text-white-exec py-2 px-3 hover:bg-white hover:text-brown-exec">Read Less</button>
         </div>
       </section>
     </main>
@@ -137,48 +391,48 @@
           </a>
           <p class="text-base w-[360px] md:w-[235px] text-center md:text-left m-auto md:m-0 md:text-[10px]">We put the focus on home in retirement home.</p>
         </div>
-        <div class="right-section w-[480px] max-w-[98%] justify-between text-white m-auto md:m-0">
-          <div class="lists flex m-auto w-[360px] max-w-[96%] justify-between flex-wrap">
+        <div class="right-section w-[480px] max-w-[98%] justify-between text-black m-auto md:m-0">
+          <div class="lists flex flex-row font-[21px] m-auto w-[360px] max-w-[96%] justify-between flex-wrap">
             <ul class="space-y-3">
               <li>
                 <h2
-                  class="font-bold mb-[28px] uppercase relative after:block after:h-0.5 after:bg-yellow-400 after:w-36"
+                  class="font-bold mb-[28px] uppercase relative after:block after:h-0.5 after:bg-white after:w-36"
                 >
                   Information
                 </h2>
               </li>
-              <li class="hover:text-yellow-400 transition-colors duration-300"><a href="/index.html">Home</a></li>
-              <li class="hover:text-yellow-400 transition-colors duration-300"><a href="/about.html">About Us</a></li>
-              <li class="hover:text-yellow-400 transition-colors duration-300"><a href="/contact.html">Contact Us</a></li>
+              <li class="hover:text-white transition-colors duration-300"><a href="/index.html">Home</a></li>
+              <li class="hover:text-white transition-colors duration-300"><a href="/about.html">About Us</a></li>
+              <li class="hover:text-white transition-colors duration-300"><a href="/contact.html">Contact Us</a></li>
             </ul>
             <ul class="space-y-3">
               <li class=>
                 <h2
-                  class="font-bold mb-[28px] h-[26px] uppercase relative after:block after:h-0.5 after:bg-yellow-400 after:w-24"
+                  class="font-bold mb-[28px] h-[26px] uppercase relative after:block after:h-0.5 after:bg-white after:w-24"
                 >
                   Contact
                 </h2>
               </li>
-              <li class="flex hover:text-yellow-400">
+              <li class="flex hover:text-white transition-colors duration-300">
                 <a href="/contact.html">
                   First Address Line
                   <br />
                   Las Vegas, NV 89031
                 </a>
               </li>
-              <li class="flex hover:text-yellow-400">
+              <li class="flex hover:text-white transition-colors duration-300">
                 <a href="tel:555-555-5555"> T: (555) 555-5555 </a>
               </li>
-              <li class="flex hover:text-yellow-400">
+              <li class="flex hover:text-white transition-colors duration-300">
                 <a href="mailto:email@email.com"> Click to Email </a>
               </li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="credit bg-brown-exec text-white w-[96%] m-auto text-center mt-[120px] text-xs">
+      <div class="credit bg-transparent text-black w-[96%] m-auto text-center mt-[120px] text-xs">
         <span>Designed and Hand Coded by</span>
-        <a class="text-yellow-400" href target="_blank" rel="noopener">Design Potato</a>
+        <a class="text-white" href target="_blank" rel="noopener">Design Potato</a>
         <span> Copyright 2022 - Present</span>
       </div>
     </footer>
