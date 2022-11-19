@@ -8,5 +8,5 @@ navBarButton.addEventListener("click", () => {
     navBarButton.classList.toggle("border");
     navBarButton.classList.toggle("border-white");
     navBarButton.classList.toggle("rounded-lg");
-    navBarButton.classList.toggle("bg-white-exec");
+    navBarButton.classList.toggle("bg-brown-exec-op");
 });
