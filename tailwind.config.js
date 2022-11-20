@@ -11,6 +11,14 @@ module.exports = {
         'brown-exec': '#B99772',
         'brown-exec-op': '#E4CDB4',
         'white-exec': '#F9F5F2',
+      },
+      spacing: {
+        '176': '44rem',
+        '200': '50rem',
+        '312': '78rem',
+        '352': '88rem',
+        '452': '113rem',
+        '508': '127rem',
       }
     },
   },
