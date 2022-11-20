@@ -669,6 +669,14 @@ video {
   left: 72px;
 }
 
+.left-1\/2 {
+  left: 50%;
+}
+
+.left-1\/4 {
+  left: 25%;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -3248,8 +3256,20 @@ html, body {
 }
 
 @media (min-width: 1024px) {
+  .lg\:left-1\/4 {
+    left: 25%;
+  }
+
+  .lg\:m-auto {
+    margin: auto;
+  }
+
   .lg\:w-\[25\%\] {
     width: 25%;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
   }
 
   .lg\:text-4xl {
