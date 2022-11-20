@@ -2854,6 +2854,23 @@ html, body {
   background-color: #B99772;
 }
 
+.background-iphone {
+  background-color: transparent;
+}
+
+.background-iphone:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url("/src/images/squiggles.png") no-repeat center center;
+  background-size: cover;
+}
+
 .after\:block::after {
   content: var(--tw-content);
   display: block;
@@ -2988,10 +3005,6 @@ html, body {
 
   .sm\:top-200 {
     top: 50rem;
-  }
-
-  .sm\:top-\[1310px\] {
-    top: 1310px;
   }
 
   .sm\:top-352 {
