@@ -947,6 +947,10 @@ video {
   height: 0.25rem;
 }
 
+.min-h-\[60px\] {
+  min-height: 60px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -1017,6 +1021,10 @@ video {
   min-width: fit-content;
 }
 
+.min-w-\[100px\] {
+  min-width: 100px;
+}
+
 .max-w-full {
   max-width: 100%;
 }
@@ -1067,6 +1075,10 @@ video {
 
 .max-w-\[357px\] {
   max-width: 357px;
+}
+
+.max-w-\[20\%\] {
+  max-width: 20%;
 }
 
 .flex-shrink {
