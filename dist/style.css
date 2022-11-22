@@ -795,6 +795,14 @@ video {
   margin-top: 0.5rem;
 }
 
+.mb-\[46px\] {
+  margin-bottom: 46px;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -907,10 +915,6 @@ video {
   height: 12rem;
 }
 
-.h-1\/2 {
-  height: 50%;
-}
-
 .h-\[26px\] {
   height: 26px;
 }
@@ -955,8 +959,8 @@ video {
   width: 90%;
 }
 
-.w-1\/2 {
-  width: 50%;
+.w-3\/4 {
+  width: 75%;
 }
 
 .w-\[92\%\] {
@@ -987,6 +991,10 @@ video {
   width: 0.25rem;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .w-\[88px\] {
   width: 88px;
 }
@@ -997,6 +1005,16 @@ video {
 
 .w-6 {
   width: 1.5rem;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.min-w-fit {
+  min-width: -moz-fit-content;
+  min-width: fit-content;
 }
 
 .max-w-full {
@@ -2826,6 +2844,20 @@ html, body {
   overflow-x: hidden;
 }
 
+.basic-grid{
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%/2 - 1rem * 1/2, max(300px, 100%/3 - 1rem * 2/3)), 1fr));
+}
+
+@media only screen and (max-width: 768px) {
+  .basic-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+  }
+}
+
 .background-image-with-color {
   background-image: url("/src/images/black-squiggles.png");
   background-attachment: fixed;
@@ -3025,6 +3057,10 @@ html, body {
 
   .sm\:w-1\/2 {
     width: 50%;
+  }
+
+  .sm\:max-w-\[30\%\] {
+    max-width: 30%;
   }
 
   .sm\:text-center {
