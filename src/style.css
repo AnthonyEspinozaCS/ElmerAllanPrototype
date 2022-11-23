@@ -14,8 +14,8 @@ html, body {
 
 .basic-grid{
     display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%/2 - 1rem * 1/2, max(300px, 100%/3 - 1rem * 2/3)), 1fr));
+    gap: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%/2 - 3rem * 1/2, max(300px, 100%/3 - 3rem * 2/3)), 1fr));
 }
 
 @media only screen and (max-width: 768px) {
