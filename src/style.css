@@ -6,6 +6,20 @@ html, body {
     overflow-x: hidden;
 }
 
+/* h1, h2, h3, picture, img {
+    animation: fadeIn 2s;
+}
+
+p {
+    animation: fadeIn 2s backwards;
+    animation-delay: 1000ms;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+} */
+
 .landing {
     border-radius: 12px;
 /*     background: rgb(166,119,88);
