@@ -967,12 +967,12 @@ video {
   width: 92%;
 }
 
-.w-\[360px\] {
-  width: 360px;
-}
-
 .w-\[480px\] {
   width: 480px;
+}
+
+.w-\[360px\] {
+  width: 360px;
 }
 
 .w-\[96\%\] {
@@ -1020,8 +1020,8 @@ video {
   max-width: 100%;
 }
 
-.max-w-\[20\%\] {
-  max-width: 20%;
+.max-w-\[15\%\] {
+  max-width: 15%;
 }
 
 .max-w-\[1320px\] {
@@ -1052,6 +1052,10 @@ video {
   max-width: 295px;
 }
 
+.max-w-\[20\%\] {
+  max-width: 20%;
+}
+
 .max-w-\[1144px\] {
   max-width: 1144px;
 }
@@ -1070,10 +1074,6 @@ video {
 
 .max-w-\[130px\] {
   max-width: 130px;
-}
-
-.max-w-\[15\%\] {
-  max-width: 15%;
 }
 
 .flex-shrink {
@@ -2012,7 +2012,7 @@ video {
 
 .border-brown-exec {
   --tw-border-opacity: 1;
-  border-color: rgb(166 119 88 / var(--tw-border-opacity));
+  border-color: rgb(213 185 168 / var(--tw-border-opacity));
 }
 
 .border-green-500 {
@@ -2032,7 +2032,7 @@ video {
 
 .bg-brown-exec {
   --tw-bg-opacity: 1;
-  background-color: rgb(166 119 88 / var(--tw-bg-opacity));
+  background-color: rgb(213 185 168 / var(--tw-bg-opacity));
 }
 
 .bg-transparent {
@@ -2351,14 +2351,14 @@ video {
   font-size: 19px;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .text-xl {
@@ -2483,7 +2483,7 @@ video {
 
 .text-brown-exec {
   --tw-text-opacity: 1;
-  color: rgb(166 119 88 / var(--tw-text-opacity));
+  color: rgb(213 185 168 / var(--tw-text-opacity));
 }
 
 .text-black {
@@ -2857,12 +2857,6 @@ html, body {
     background: linear-gradient(0deg, rgba(166,119,88,0) 0%, rgba(166,119,88,0.5154061624649859) 50%, rgba(166,119,88,1) 100%); */
 }
 
-.landing-p {
-  color: #F9F5F2;
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: #A67758;
-}
-
 .basic-grid{
   display: grid;
   gap: 1rem;
@@ -2902,7 +2896,7 @@ html, body {
 }
 
 .background-color-foot {
-  background-color: #A67758;
+  background-color: #D5B9A8;
 }
 
 .background-iphone {
@@ -2979,7 +2973,7 @@ html, body {
 
 .hover\:text-brown-exec:hover {
   --tw-text-opacity: 1;
-  color: rgb(166 119 88 / var(--tw-text-opacity));
+  color: rgb(213 185 168 / var(--tw-text-opacity));
 }
 
 .hover\:text-white:hover {
