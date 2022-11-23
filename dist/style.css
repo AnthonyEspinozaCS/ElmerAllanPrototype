@@ -2477,14 +2477,19 @@ video {
   color: rgb(249 245 242 / var(--tw-text-opacity));
 }
 
-.text-brown-exec {
+.text-brown-highlight {
   --tw-text-opacity: 1;
-  color: rgb(213 185 168 / var(--tw-text-opacity));
+  color: rgb(166 119 88 / var(--tw-text-opacity));
 }
 
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-brown-exec {
+  --tw-text-opacity: 1;
+  color: rgb(213 185 168 / var(--tw-text-opacity));
 }
 
 .text-green-500 {
@@ -2494,11 +2499,6 @@ video {
 
 .text-\[\#336699\]\/\[\.35\] {
   color: rgb(51 102 153 / .35);
-}
-
-.text-brown-highlight {
-  --tw-text-opacity: 1;
-  color: rgb(187 168 152 / var(--tw-text-opacity));
 }
 
 .underline {
