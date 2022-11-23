@@ -1052,10 +1052,6 @@ video {
   max-width: 295px;
 }
 
-.max-w-\[20\%\] {
-  max-width: 20%;
-}
-
 .max-w-\[1144px\] {
   max-width: 1144px;
 }
@@ -2498,6 +2494,11 @@ video {
 
 .text-\[\#336699\]\/\[\.35\] {
   color: rgb(51 102 153 / .35);
+}
+
+.text-brown-highlight {
+  --tw-text-opacity: 1;
+  color: rgb(187 168 152 / var(--tw-text-opacity));
 }
 
 .underline {
