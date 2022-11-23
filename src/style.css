@@ -6,6 +6,18 @@ html, body {
     overflow-x: hidden;
 }
 
+.landing {
+    border-radius: 12px;
+/*     background: rgb(166,119,88);
+    background: linear-gradient(0deg, rgba(166,119,88,0) 0%, rgba(166,119,88,0.5154061624649859) 50%, rgba(166,119,88,1) 100%); */
+}
+
+.landing-p {
+    color: #F9F5F2;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #A67758;
+}
+
 .basic-grid{
     display: grid;
     gap: 1rem;
